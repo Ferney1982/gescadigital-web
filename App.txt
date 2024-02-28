@@ -1,0 +1,30 @@
+import './App.css';
+import Card from './components/Card';
+import ShowHide from './components/ShowHide';
+
+function App() {
+  return (
+    <div className='App'>
+      <h1>Gescadigital</h1>
+      <h2>Nuestros Servicios Digitales:</h2>
+      
+      <div className='container'>
+      <Card title="Gestión de Archivos" description="El proceso..."/>
+      <Card title="Destrucción Segura" description="Proceso"/>
+      <Card title="Almacenamiento" description="Proceso"/>
+      <Card title="Logística" description="Proceso"/>
+
+
+      
+
+      </div>
+      
+      <div>
+      <ShowHide/>
+
+      </div>
+    </div>
+  );
+}
+
+export default App;
